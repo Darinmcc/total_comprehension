@@ -8,6 +8,7 @@ print("ORIGINAL LIST:", my_numbers)
 print("---------------")
 print("TOTAL COMPREHENSION...")
 
+#mapped_list = [n *100 for n in my_numbers]
 
 for numbers in my_numbers:
     numbersby100.append(numbers * 100)
@@ -30,8 +31,9 @@ print("---------------")
 
 mappednfiltered = [nums for nums in numbersby100 if nums > 300]
 
+last_list = [n * 100 for n in my_numbers if n > 3]
 
-print("MAPPED AND FILTERED LIST:", mappednfiltered)
+print("MAPPED AND FILTERED LIST:", last_list)
 
 
 #Use mapping capabilities to multiply each number by 100 (e.g. [100, 200, 300, 400, 500, 600, 700])
