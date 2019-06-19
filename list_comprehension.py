@@ -28,11 +28,10 @@ print("FILTERED LIST W/O MATCHES:", unfiltered_list)
 
 print("---------------")
 
-#mappednfiltered = [nums for nums in numbersby100 if nums > 300]
-#print(mappednfiltered)
+mappednfiltered = [nums for nums in numbersby100 if nums > 300]
 
 
-print("MAPPED AND FILTERED LIST:", mapnfilt)
+print("MAPPED AND FILTERED LIST:", mappednfiltered)
 
 
 #Use mapping capabilities to multiply each number by 100 (e.g. [100, 200, 300, 400, 500, 600, 700])
